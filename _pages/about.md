@@ -11,6 +11,8 @@ I am a third-year PhD student at Université Paris Dauphine and École normale s
  
 My research interests lie in probability theory and statistical physics, with a particular focus on integrable probability and random matrix theory.
 
-Email: ouyang@ceremade.dauphine.fr
+See my [publications](/publications/) and [talks](/talks/). 
 
-[Download my CV](/files/cv.pdf)
+Contact: [ouyang@ceremade.dauphine.fr](mailto:ouyang@ceremade.dauphine.fr)
+
+I'm always happy to discuss math in 中文, English, or français! 
