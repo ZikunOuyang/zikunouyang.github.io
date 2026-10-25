@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : #"Short biography for the left-hand sidebar"
   location         : "Paris, France"
-  employer         : "<span style='display: inline-block; vertical-align: top; max-width: calc(100% - 2em); white-space: normal;'>Université Paris Dauphine<br>École normale supérieure</span>"
+  employer         : "<a href='https://www.ceremade.dauphine.fr/fr.html'>CEREMADE</a> and <a href='https://www.lpens.ens.psl.eu/'>LPENS</a>"
   uri              : # URL
   email            : "ouyang@ceremade.dauphine.fr" 
 
