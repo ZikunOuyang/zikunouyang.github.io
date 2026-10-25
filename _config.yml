@@ -83,7 +83,8 @@ author:
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
- preprints:
+ publication_category:
+  preprints:
     title: "Preprints"
   manuscripts:
     title: "Published Papers"
