@@ -26,9 +26,9 @@ author:
   avatar           : "profile.png"
   name             : "Zikun Ouyang"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : #"Short biography for the left-hand sidebar"
   location         : "Paris, France"
-  employer         : "<span style='display: inline-block; vertical-align: top; max-width: calc(100% - 2em); white-space: normal;'>Université Paris Dauphine<br>École normale supérieure</span>"
+  employer         : #"<span style='display: inline-block; vertical-align: top; max-width: calc(100% - 2em); white-space: normal;'>Université Paris Dauphine<br>École normale supérieure</span>"
   uri              : # URL
   email            : "ouyang@ceremade.dauphine.fr" 
 
