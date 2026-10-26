@@ -4,20 +4,20 @@
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
 
-<div itemscope itemtype="http://schema.org/Person">
-
-  <div class="author__avatar">
+  <div class="author__avatar" style="position: relative; width: 175px; max-width: 100%;">
     {% if author.avatar contains "://" %}
-    	<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
+      <img src="{{ author.avatar }}" alt="{{ author.name }}"
+           style="display: block; width: 100%; height: auto; border-radius: 8px;" />
     {% else %}
-    	<img
-  src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}"
-  class="author__avatar"
-  alt="{{ author.name }}"
-  fetchpriority="high"
-  style="width: 175px; height: auto; border-radius: 8px;"
-/>
+      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}"
+           alt="{{ author.name }}"
+           style="display: block; width: 100%; height: auto; border-radius: 8px;" />
     {% endif %}
+
+    <a href="https://scgp.stonybrook.edu/"
+       style="position: absolute; right: 10px; bottom: 10px; font-size: 11px; line-height: 1.2; color: white; background: rgba(0,0,0,0.4); padding: 2px 4px; border-radius: 3px; text-decoration: none;">
+      @SCGP
+    </a>
   </div>
 
   <div class="author__content">
