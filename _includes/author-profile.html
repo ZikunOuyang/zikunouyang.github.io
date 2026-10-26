@@ -13,7 +13,7 @@
       <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}" fetchpriority="high" style="width: 220px; max-width: 100%; height: auto; border-radius: 8px;" />
     {% endif %}
         <div style="width: 220px; max-width: 100%; margin-top: 4px; text-align: right; font-size: 10px; line-height: 1.3; color: #777;">
-      {{ page.photo_credit | default: "Photo credit: SCGP" }}
+      {{ page.photo_credit | default: "Photo credit: <a href='https://scgp.stonybrook.edu/' style='color: inherit; text-decoration: none;'>@SCGP</a>" }}
     </div>
   </div>
 
